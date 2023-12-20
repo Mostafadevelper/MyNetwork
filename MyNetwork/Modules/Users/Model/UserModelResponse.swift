@@ -7,10 +7,10 @@
 
 import Foundation
 
-class UserModel: Codable {
+class UserModelResponse: Decodable {
     
     var name: String?
-    var salary: String?
+    var salary: Double?
     
     enum CodingKeys: String, CodingKey {
         case name = "employee_name"

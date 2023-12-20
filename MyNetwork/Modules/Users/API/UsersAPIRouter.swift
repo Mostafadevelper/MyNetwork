@@ -8,14 +8,14 @@
 import Foundation
 import Alamofire
 
-enum UsersNetworking {
+enum UsersAPIRouter {
     case getUsers
     case createUser(name: String, job: String)
 }
 
-extension UsersNetworking: TargetType {
+extension UsersAPIRouter: APIConfiguration {
     
-    var baseUrl: String {
+    var baseURL: String {
         switch self {
         case .getUsers:
             return "http://dummy.restapiexample.com/api/v1"

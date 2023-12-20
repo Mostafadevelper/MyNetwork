@@ -20,15 +20,17 @@ enum Task {
     case requestParamters(paramter: [String:Any], encoding: ParameterEncoding)
 }
 
-protocol TargetType {
+protocol APIConfiguration {
     
-    var baseUrl: String { get }
-    
+    var baseURL: String { get }
     var path: String { get }
-    
     var method: HTTPMethod { get }
-    
     var task: Task { get }
-    
     var headers: [String:String]? { get }
+}
+
+extension APIConfiguration {
+    var baseURL: String {
+        "http://dummy.restapiexample.com/api/v1"
+    }
 }

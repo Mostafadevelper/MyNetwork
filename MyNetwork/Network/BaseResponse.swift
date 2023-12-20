@@ -8,7 +8,7 @@
 import Foundation
 
 
-class BaseResponse<T: Codable>: Codable {
+class BaseResponse<T: Decodable>: Decodable {
     
     var status: String?
     var data: T?

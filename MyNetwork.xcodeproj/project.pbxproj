@@ -12,11 +12,11 @@
 		84E4DA4C2B2CF6A400529F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E4DA4A2B2CF6A400529F5D /* Main.storyboard */; };
 		84E4DA4E2B2CF6A700529F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E4DA4D2B2CF6A700529F5D /* Assets.xcassets */; };
 		84E4DA512B2CF6A700529F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E4DA4F2B2CF6A700529F5D /* LaunchScreen.storyboard */; };
-		84E4DA5B2B2CF88300529F5D /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5A2B2CF88300529F5D /* TargetType.swift */; };
-		84E4DA5D2B2CFA8000529F5D /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5C2B2CFA8000529F5D /* BaseAPI.swift */; };
-		84E4DA602B2D0B8900529F5D /* UsersNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5F2B2D0B8900529F5D /* UsersNetworking.swift */; };
-		84E4DA622B2D0BFF00529F5D /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA612B2D0BFF00529F5D /* UsersAPI.swift */; };
-		84E4DA642B2D0C2D00529F5D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA632B2D0C2D00529F5D /* UserModel.swift */; };
+		84E4DA5B2B2CF88300529F5D /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5A2B2CF88300529F5D /* APIConfiguration.swift */; };
+		84E4DA5D2B2CFA8000529F5D /* BaseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5C2B2CFA8000529F5D /* BaseAPIClient.swift */; };
+		84E4DA602B2D0B8900529F5D /* UsersAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA5F2B2D0B8900529F5D /* UsersAPIRouter.swift */; };
+		84E4DA622B2D0BFF00529F5D /* UsersAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA612B2D0BFF00529F5D /* UsersAPIClient.swift */; };
+		84E4DA642B2D0C2D00529F5D /* UserModelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA632B2D0C2D00529F5D /* UserModelResponse.swift */; };
 		84E4DA662B2D0CDE00529F5D /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4DA652B2D0CDE00529F5D /* BaseResponse.swift */; };
 		B06260D423400567D3E8C2EF /* Pods_MyNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC85FCFE201692DAFBF7D10F /* Pods_MyNetwork.framework */; };
 /* End PBXBuildFile section */
@@ -30,11 +30,11 @@
 		84E4DA4D2B2CF6A700529F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E4DA502B2CF6A700529F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E4DA522B2CF6A700529F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E4DA5A2B2CF88300529F5D /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
-		84E4DA5C2B2CFA8000529F5D /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
-		84E4DA5F2B2D0B8900529F5D /* UsersNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworking.swift; sourceTree = "<group>"; };
-		84E4DA612B2D0BFF00529F5D /* UsersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
-		84E4DA632B2D0C2D00529F5D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		84E4DA5A2B2CF88300529F5D /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		84E4DA5C2B2CFA8000529F5D /* BaseAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPIClient.swift; sourceTree = "<group>"; };
+		84E4DA5F2B2D0B8900529F5D /* UsersAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIRouter.swift; sourceTree = "<group>"; };
+		84E4DA612B2D0BFF00529F5D /* UsersAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIClient.swift; sourceTree = "<group>"; };
+		84E4DA632B2D0C2D00529F5D /* UserModelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelResponse.swift; sourceTree = "<group>"; };
 		84E4DA652B2D0CDE00529F5D /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		CF3EBBF5C85867F3FF8D49A0 /* Pods-MyNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyNetwork.release.xcconfig"; path = "Target Support Files/Pods-MyNetwork/Pods-MyNetwork.release.xcconfig"; sourceTree = "<group>"; };
 		DC85FCFE201692DAFBF7D10F /* Pods_MyNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +61,55 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		84781CB82B337E0900F0432D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				84E4DA5E2B2D083D00529F5D /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84781CB92B337E5800F0432D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84E4DA5F2B2D0B8900529F5D /* UsersAPIRouter.swift */,
+				84E4DA612B2D0BFF00529F5D /* UsersAPIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84781CBA2B337E6100F0432D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E4DA632B2D0C2D00529F5D /* UserModelResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84781CBB2B337E7300F0432D /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84E4DA482B2CF6A400529F5D /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		84781CBC2B337E9D00F0432D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84781CBD2B337EA400F0432D /* Storyboatd */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84781CBD2B337EA400F0432D /* Storyboatd */ = {
+			isa = PBXGroup;
+			children = (
+				84E4DA4A2B2CF6A400529F5D /* Main.storyboard */,
+			);
+			path = Storyboatd;
+			sourceTree = "<group>";
+		};
 		84E4DA382B2CF6A400529F5D = {
 			isa = PBXGroup;
 			children = (
@@ -82,15 +131,12 @@
 		84E4DA432B2CF6A400529F5D /* MyNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				84781CB82B337E0900F0432D /* Modules */,
 				84E4DA582B2CF85200529F5D /* Network */,
 				84E4DA442B2CF6A400529F5D /* AppDelegate.swift */,
-				84E4DA482B2CF6A400529F5D /* ViewController.swift */,
-				84E4DA4A2B2CF6A400529F5D /* Main.storyboard */,
 				84E4DA4D2B2CF6A700529F5D /* Assets.xcassets */,
 				84E4DA4F2B2CF6A700529F5D /* LaunchScreen.storyboard */,
 				84E4DA522B2CF6A700529F5D /* Info.plist */,
-				84E4DA632B2D0C2D00529F5D /* UserModel.swift */,
-				84E4DA652B2D0CDE00529F5D /* BaseResponse.swift */,
 			);
 			path = MyNetwork;
 			sourceTree = "<group>";
@@ -98,26 +144,20 @@
 		84E4DA582B2CF85200529F5D /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				84E4DA5E2B2D083D00529F5D /* Users */,
-				84E4DA592B2CF85A00529F5D /* Base */,
+				84E4DA5A2B2CF88300529F5D /* APIConfiguration.swift */,
+				84E4DA5C2B2CFA8000529F5D /* BaseAPIClient.swift */,
+				84E4DA652B2D0CDE00529F5D /* BaseResponse.swift */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		84E4DA592B2CF85A00529F5D /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				84E4DA5A2B2CF88300529F5D /* TargetType.swift */,
-				84E4DA5C2B2CFA8000529F5D /* BaseAPI.swift */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		84E4DA5E2B2D083D00529F5D /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				84E4DA5F2B2D0B8900529F5D /* UsersNetworking.swift */,
-				84E4DA612B2D0BFF00529F5D /* UsersAPI.swift */,
+				84781CBB2B337E7300F0432D /* View Controller */,
+				84781CBC2B337E9D00F0432D /* View */,
+				84781CBA2B337E6100F0432D /* Model */,
+				84781CB92B337E5800F0432D /* API */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -247,12 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E4DA5B2B2CF88300529F5D /* TargetType.swift in Sources */,
-				84E4DA642B2D0C2D00529F5D /* UserModel.swift in Sources */,
-				84E4DA622B2D0BFF00529F5D /* UsersAPI.swift in Sources */,
-				84E4DA5D2B2CFA8000529F5D /* BaseAPI.swift in Sources */,
+				84E4DA5B2B2CF88300529F5D /* APIConfiguration.swift in Sources */,
+				84E4DA642B2D0C2D00529F5D /* UserModelResponse.swift in Sources */,
+				84E4DA622B2D0BFF00529F5D /* UsersAPIClient.swift in Sources */,
+				84E4DA5D2B2CFA8000529F5D /* BaseAPIClient.swift in Sources */,
 				84E4DA492B2CF6A400529F5D /* ViewController.swift in Sources */,
-				84E4DA602B2D0B8900529F5D /* UsersNetworking.swift in Sources */,
+				84E4DA602B2D0B8900529F5D /* UsersAPIRouter.swift in Sources */,
 				84E4DA452B2CF6A400529F5D /* AppDelegate.swift in Sources */,
 				84E4DA662B2D0CDE00529F5D /* BaseResponse.swift in Sources */,
 			);

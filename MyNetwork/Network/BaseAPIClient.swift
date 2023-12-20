@@ -9,9 +9,9 @@ import Foundation
 import Alamofire
 
 
-class BaseAPI<T: TargetType> {
+class BaseAPIClient<T: APIConfiguration> {
     
-    func fetchData<M: Decodable>(
+    func performRequest<M: Decodable>(
         target: T,
         response: M.Type,
         completionHandler: @escaping (Result<M?>) -> Void
@@ -19,9 +19,11 @@ class BaseAPI<T: TargetType> {
         let method = Alamofire.HTTPMethod(rawValue: target.method.rawValue)
         let headers = target.headers ?? [:]
         let paramters = buildParams(task: target.task)
-        
+        print(target.baseURL + target.path)
+        print(method)
+        print(paramters)
         Alamofire.request(
-            target.baseUrl + target.path,
+            target.baseURL + target.path,
             method: method! ,
             parameters: paramters.0,
             encoding: paramters.1,
@@ -40,7 +42,6 @@ class BaseAPI<T: TargetType> {
                     completionHandler(.failure(NSError()))
                 }
             }
-        
     }
    
     private func buildParams(task: Task) -> ([String:Any], ParameterEncoding) {
